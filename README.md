@@ -18,7 +18,8 @@ Spring Boot 기반의 **주식 거래 REST API 서버**입니다.
 
 ---
 
-## 📂 Project Structure
+## 📂 Project Structure\
+
 src/main/java/com/sk/skala/stockapi
 ├── controller # API 엔드포인트
 ├── service # 비즈니스 로직
@@ -77,7 +78,7 @@ src/main/java/com/sk/skala/stockapi
 
 
 
-📑 API Documentation (Swagger)
+**## 📑 API Documentation (Swagger)**
 
 서버 실행 후 아래 주소에서 Swagger UI 확인 가능:
 
@@ -88,7 +89,7 @@ Swagger UI에서 로그인 후
 쿠키가 자동으로 유지되어 매수/매도 테스트가 가능합니다.
 
 
-▶️ How to Run
+## ▶️ How to Run
 ./mvnw clean spring-boot:run
 
 
